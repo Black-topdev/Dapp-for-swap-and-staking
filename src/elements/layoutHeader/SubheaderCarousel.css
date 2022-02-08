@@ -1,0 +1,40 @@
+.content {
+    margin-top: -20px;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+.slick-arrow {
+    display: none !important;
+}
+.slick-dots {
+    top: 110px;
+    text-align: left;
+}
+.slick-dots li.slick-active {
+    background-color: black;
+    width: 36px;
+    transition: all ease-in-out 0.3s;
+}
+.slick-dots li {
+    background-color: #F3F3F3;
+    width: 18px;
+    height: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+
+}
+@media screen and (min-width: 1536px) {
+    /* STYLES HERE */
+    .slick-dots {
+        top: 100px;
+    }
+
+}
+/* .ft-slick__dots--custom. */

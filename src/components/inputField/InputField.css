@@ -1,0 +1,19 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .input-field {
+    @apply bg-white text-black dark:text-white text-20 py-14 px-20 rounded w-full;
+    @apply dark:bg-dark-0 ;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .input-field-bg-grey {
+    @apply bg-grey-0;
+    @apply dark:bg-dark-0;
+  }
+
+  .input-field-border {
+    @apply border-2 border-black;
+    @apply dark:border-white
+  }
+}

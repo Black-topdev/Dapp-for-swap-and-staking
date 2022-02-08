@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+
+@layer base {
+  body{}
+
+  button,
+  a {
+    @apply outline-none focus:outline-none;
+  }
+
+  input {
+    @apply appearance-none;
+  }
+}

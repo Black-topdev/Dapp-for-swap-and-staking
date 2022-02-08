@@ -1,0 +1,17 @@
+@import 'tailwindcss/components';
+
+@layer components {
+    .swap-model .ant-tabs-tab{
+        @apply hover:text-third dark:text-white dark:hover:text-third active:text-third dark:active:text-third
+    }
+    .swap-model .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        @apply text-third
+    }
+    .swap-model .ant-tabs-ink-bar {
+        @apply bg-third
+    }
+    .swap-model .ant-card {
+        @apply dark:bg-dark-2
+    }
+    
+}
